@@ -7,7 +7,7 @@
 
 .elementor-1070 .elementor-element.elementor-element-86f0191:not(.elementor-motion-effects-element-type-background),
 .elementor-1070 .elementor-element.elementor-element-86f0191>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../images/banner.png");
+    background-image: url("../cubexo-images/banner.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,7 +290,7 @@
 }
 
 .elementor-1070 .elementor-element.elementor-element-757a8e6>.elementor-widget-container {
-    background-image: url("https://show.moxcreative.com/mydoctor/wp-content/uploads/sites/29/2021/12/doctors-are-talking.jpg");
+    background-image: url("../images/aboutus.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -465,7 +465,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 }
 
 .elementor-1070 .elementor-element.elementor-element-df6129a .elementskit-info-box-icon {
-    background-color: var(--e-global-color-308e809);
+    background-color: #1BBC9B;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: var(--e-global-color-a185853);
@@ -482,9 +482,9 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 }
 
 .elementor-1070 .elementor-element.elementor-element-df6129a .elementskit-infobox .elementskit-info-box-icon {
-    padding: 20px 20px 20px 20px;
     transform: rotate(0deg);
     width: 75px;
+    border-radius: 15px;
 }
 
 .elementor-1070 .elementor-element.elementor-element-df6129a .elementskit-infobox .elementskit-info-box-icon {
@@ -540,7 +540,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 }
 
 .elementor-1070 .elementor-element.elementor-element-2f82351 .elementskit-info-box-icon {
-    background-color: var(--e-global-color-308e809);
+    background-color: #1BBC9B;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: var(--e-global-color-a185853);
@@ -557,9 +557,10 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 }
 
 .elementor-1070 .elementor-element.elementor-element-2f82351 .elementskit-infobox .elementskit-info-box-icon {
-    padding: 20px 20px 20px 20px;
     transform: rotate(0deg);
     width: 75px;
+    transform: rotate(0deg);
+    border-radius: 15px;
 }
 
 .elementor-1070 .elementor-element.elementor-element-2f82351 .elementskit-infobox .elementskit-info-box-icon {
@@ -615,7 +616,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 }
 
 .elementor-1070 .elementor-element.elementor-element-d259e25 .elementskit-info-box-icon {
-    background-color: var(--e-global-color-308e809);
+    background-color: #1BBC9B;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: var(--e-global-color-a185853);
@@ -632,9 +633,10 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 }
 
 .elementor-1070 .elementor-element.elementor-element-d259e25 .elementskit-infobox .elementskit-info-box-icon {
-    padding: 20px 20px 20px 20px;
     transform: rotate(0deg);
     width: 75px;
+    border-radius: 15px;
+
 }
 
 .elementor-1070 .elementor-element.elementor-element-d259e25 .elementskit-infobox .elementskit-info-box-icon {
