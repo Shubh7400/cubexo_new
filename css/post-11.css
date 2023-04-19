@@ -126,6 +126,7 @@
     line-height: var(--e-global-typography-84ca66e-line-height);
     letter-spacing: var(--e-global-typography-84ca66e-letter-spacing);
     word-spacing: var(--e-global-typography-84ca66e-word-spacing);
+    margin-top: 100px;
 }
 
 .elementor-kit-11 button,

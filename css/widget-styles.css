@@ -15837,12 +15837,19 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {
 
 .ekit-wid-con .elementskit-infobox .elementskit-box-header .elementskit-info-box-icon {
     display: inline-block;
-    margin-bottom: 13px
+    margin-bottom: 13px;
+    max-height:75px;
+    background-color: #1BBC9B;
+
+
 }
 
+.icons-part{
+    max-height: 75px;
+}
 .ekit-wid-con .elementskit-infobox .elementskit-box-header .elementskit-info-box-icon i {
     -webkit-transition: all .4s;
-    transition: all .4s
+    transition: all .4s;
 }
 
 .ekit-wid-con .elementskit-infobox .elementskit-box-header .icon-switcher {
@@ -17792,7 +17799,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {
 }
 
 .ekit-wid-con .elementskit-clients-slider .single-client {
-    min-height: 170px;
+    min-height: 120px;
     z-index: 5;
     display: -webkit-box;
     display: -ms-flexbox;

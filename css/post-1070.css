@@ -290,7 +290,7 @@
 }
 
 .elementor-1070 .elementor-element.elementor-element-757a8e6>.elementor-widget-container {
-    background-image: url("../images/aboutus.png");
+    background-image: url("../cubexo-images/aboutus.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -457,6 +457,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 
 .elementor-1070 .elementor-element.elementor-element-df6129a .elementkit-infobox-icon {
     color: var(--e-global-color-a185853);
+    max-height: 75px;
 }
 
 .elementor-1070 .elementor-element.elementor-element-df6129a .elementskit-info-box-icon>svg path {
@@ -489,6 +490,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 
 .elementor-1070 .elementor-element.elementor-element-df6129a .elementskit-infobox .elementskit-info-box-icon {
     height: 75px;
+     margin-top: 60px;
 }
 
 .elementor-1070 .elementor-element.elementor-element-2f82351.ekit-equal-height-enable,
@@ -565,6 +567,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 
 .elementor-1070 .elementor-element.elementor-element-2f82351 .elementskit-infobox .elementskit-info-box-icon {
     height: 75px;
+    margin-top: 60px;
 }
 
 .elementor-1070 .elementor-element.elementor-element-d259e25.ekit-equal-height-enable,
@@ -641,6 +644,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 
 .elementor-1070 .elementor-element.elementor-element-d259e25 .elementskit-infobox .elementskit-info-box-icon {
     height: 75px;
+    margin-top: 60px;
 }
 
 .elementor-1070 .elementor-element.elementor-element-b585c64>.elementor-container {
