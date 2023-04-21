@@ -458,3 +458,259 @@
 .services-page__hover-read-more:hover {
   color: var(--sinace-white);
 }
+
+
+
+
+.technology-area {
+  background: url(../cubexo-images/ourclients.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 238px 0 168px;
+}
+.technology-single-icon-box {
+  text-align: center;
+  border: 1px solid #767a80;
+  padding: 40px 20px 20px;
+  transition: .5s;
+  margin-bottom:30px;
+}
+.technology-icon i {
+  display: inline-block;
+  color: #fff;
+  font-size: 50px;
+  transition: .5s;
+}
+.technology-title h3 {
+  color: #fff;
+  font-size: 24px;
+  transition: .5s;
+  font-weight: 600;
+  margin-top: 0;
+}
+.technology-single-icon-box:hover .technology-icon i {
+  transform: rotateY(180deg);
+}
+.technology-single-icon-box:hover {
+  /* background: #ffbb00;
+  border: 1px solid #ffbb00; */
+}
+.technology-single-icon-box:hover .technology-icon i, .technology-single-icon-box:hover .technology-title h3{
+  color: #33354b;
+}
+/*style two*/
+.technology-single-icon-box.style-two {
+  text-align: center;
+  border: 1px solid #767a80;
+  padding: 40px 20px 20px;
+  transition: .5s;
+  margin-bottom:30px;
+}
+.style-two.technology-single-icon-box:hover {
+  background: #fff;
+}
+.style-two.technology-single-icon-box:hover .technology-icon i, .style-two.technology-single-icon-box:hover .technology-title h3{
+  /* color: #ffbb00; */
+}
+/*style three*/
+.style-three.technology-area {
+  background: url(assets/images/resource/tech.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0px 176px;
+  overflow: hidden;
+}
+.style-three .technology-icon i {
+  display: inline-block;
+  font-size: 50px;
+  transition: .5s;
+}
+.technology-icon2 {
+  float: left;
+  margin-right: 13px;
+}
+.technology-icon2 i {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.elementor-technology-title span {
+  font-size: 20px;
+  font-family: 'Rajdhani';
+  color: #fff;
+  font-weight: 600;
+}
+.technology-titile h1 {
+  font-size: 100px;
+  margin-top: 34px;
+  margin-left: 10px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #66687a;
+  animation: 1s 1.5s fadeInRight both;
+}
+/*style four*/
+.style-four.technology-area {
+  background: transparent;
+  background-size: inherit;
+  background-repeat: inherit;
+  background-position: inherit;
+  padding: 44px 0 120px;
+  position: relative;
+  z-index: 1;
+  margin-top: -314px;
+}
+.style-four .technology-single-icon-box {
+  text-align: center;
+  border: 1px solid #b0b1b9;
+  padding: 40px 20px 20px;
+  transition: .5s;
+  margin-bottom: 30px;
+  animation: 1s 1.5s fadeInRight both;
+}
+.style-four .technology-icon i {
+  display: inline-block;
+  color: #ffbb00;
+  font-size: 45px;
+  transition: .5s;
+}
+.style-four .style-two .technology-icon i {
+  display: inline-block;
+  color: #fff;
+  font-size: 45px;
+  transition: .5s;
+}
+/*styl five*/
+.style-five.technology-area {
+  background: url(assets/images/resource/tech.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0px 200px;
+  overflow: hidden;
+}
+/*style six*/
+.style-three.six.technology-area {
+  background: url(assets/images/slider/tech1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0px 176px;
+  overflow: hidden;
+}
+/*====================================================
+--< Flip Box Area Css -->
+======================================================*/
+.row.navigation {
+  position: relative;
+  margin-top: -85px;
+  z-index: 1;
+}
+.flip-box3 {
+  background-color: transparent;
+  width: 265px;
+  height: 220px;
+  border: 0;
+  perspective: 1000px;
+  margin-top: 30px;
+}
+.flip-box {
+  background-color: transparent;
+  width: 265px;
+  height: 220px;
+  border: 0;
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box3:hover .flip-box-inner {
+transform: rotateX(180deg);
+}
+.flip-box:hover .flip-box-inner {
+transform: rotateX(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 22;
+}
+.flip-box-front2, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 22;
+}
+.flip-box-front3, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 22;
+}
+.flip-box-front {
+  background: url(assets/images/team/flip1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 90px 15px;
+  border-radius: 5px;
+}
+.flip-box-front2 {
+  background: url(assets/images/team/flip2.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 90px 15px;
+  border-radius: 5px;
+}
+.flip-box-front3 {
+  background: url(assets/images/team/flip3.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 90px 15px;
+  border-radius: 5px;
+}
+.flip-box-back {
+  background: #ffbb00;
+  color: white;
+  transform: rotateX(180deg);
+  padding: 30px 6px 0;
+  border-radius: 5px;
+}
+.flip-box-content h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.flip-box-back {
+  background: #ffbb00;
+  transform: rotateX(180deg);
+  padding: 30px 6px 0;
+  border-radius: 5px;
+}
+.style-two.flip-box-content h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #232434;
+}
+.style-two.flip-box-content p {
+  padding: 12px 15px 0px;
+  font-size: 16px;
+  color: #232434;
+}
