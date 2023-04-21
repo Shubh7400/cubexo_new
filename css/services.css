@@ -175,19 +175,19 @@
   color: #333;
   font-size: 40px;
   /* -webkit-transition: all 0.5s ease 0s; */
-  -o-transition: all 0.5s ease 0s;
+  /* -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   position: relative;
   display: inline-block;
   max-height: 70px;
 
-}
-.service-box.service-style-six:hover .service-box-icon {
-  --whiteSvg: black;
+} */
+/* .service-box.service-style-six:hover .service-box-icon {
+  --whiteSvg: white;
   --blackSvg: white;
-}
+} */
 
-.service-box.service-style-six .service-box-icon i {
+/* .service-box.service-style-six .service-box-icon i {
   font-size: 55px;
   color: #2513d1;
   transition: .5s;
@@ -222,7 +222,7 @@
   padding: 10px 30px;
   border-radius: 30px;
   color: #2513d1;
-} */
+} */ */
 
 
 .services-page {
@@ -266,7 +266,8 @@
   height: 67px;
   font-size: 32px;
   color: white;
-  background-color: red;
+  background-color: black;
+  opacity: 65%;
 }
 
 .services-page__content {
@@ -284,7 +285,8 @@
   right: 0;
   bottom: 0;
   width: 6px;
-  background-color: red
+  background-color:black;
+  opacity: 65%;
 }
 
 .services-page__title {
@@ -308,10 +310,16 @@
   position: relative;
   display: inline-block;
   font-size: 14px;
-  color: #081528;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-decoration: none;
+  background: black;
+  color: white;
+  opacity: 60%;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+
 }
 
 .services-page__hover-single {
@@ -356,7 +364,7 @@
   right: 0;
   bottom: 0;
   width: 6px;
-  background-color: red;
+  background-color: #1bbc9b;
   z-index: 2;
 }
 
@@ -380,7 +388,7 @@
   height: 67px;
   top: 0;
   right: 0;
-  background-color: red;
+  background-color: #1bbc9b;
   z-index: 2;
 }
 
@@ -414,12 +422,14 @@
 
 .services-page__hover-title a {
   color: white;
+  text-decoration: none;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .services-page__hover-title a:hover {
-  color: var(--sinace-base);
+  color: #1bbc9b;
+  text-decoration: none;
 }
 
 .services-page__hover-text {
@@ -428,12 +438,17 @@
   margin-bottom: 6px;
 }
 
+
 .services-page__hover-read-more {
   position: relative;
   display: inline-block;
   font-size: 14px;
-  color: red;
+  color: white;
+  background: #1bbc9b;
+  text-decoration: none;
   font-weight: 400;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   -webkit-transition: all 500ms ease;
