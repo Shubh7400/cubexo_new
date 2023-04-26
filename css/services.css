@@ -467,12 +467,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 238px 0 168px;
+    padding: 30px 0px 0px 0px;
+}
+.dreamit-section-title{
+  color: white;
+  margin-bottom: 30px;
 }
 .technology-single-icon-box {
   text-align: center;
   border: 1px solid #767a80;
-  padding: 40px 20px 20px;
+  padding: 5px 5px 5px 5px;
   transition: .5s;
   margin-bottom:30px;
 }
@@ -493,8 +497,10 @@
   transform: rotateY(180deg);
 }
 .technology-single-icon-box:hover {
-  /* background: #ffbb00;
-  border: 1px solid #ffbb00; */
+  border: 2px solid #1bbc9b;
+  transform: scale(0.8) translateY(7px);
+
+
 }
 .technology-single-icon-box:hover .technology-icon i, .technology-single-icon-box:hover .technology-title h3{
   color: #33354b;
@@ -503,12 +509,12 @@
 .technology-single-icon-box.style-two {
   text-align: center;
   border: 1px solid #767a80;
-  padding: 40px 20px 20px;
+  padding: 5px 5px 5px 5px;
   transition: .5s;
   margin-bottom:30px;
 }
 .style-two.technology-single-icon-box:hover {
-  background: #fff;
+  border: 2px solid #1bbc9b;
 }
 .style-two.technology-single-icon-box:hover .technology-icon i, .style-two.technology-single-icon-box:hover .technology-title h3{
   /* color: #ffbb00; */

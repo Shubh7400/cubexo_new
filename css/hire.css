@@ -1,0 +1,125 @@
+.btn {
+    border: none;
+    /* background: linear-gradient(to bottom, #3498db, #2980b9); */
+    border-radius: 3px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  /* .active {
+    background: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  } */
+  /* .box {
+    background: linear-gradient(to right,#F4F2FF,#ffffff);
+    padding: 10px;
+    height: 100px;
+    width: calc(25% - 10px);
+    float: left;
+    margin: 5px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    
+  }
+  .spacer {
+    clear: both;
+    height: 20px;
+  }
+
+
+  .our-technologies {
+    padding-bottom: 70px
+}
+
+.our-technologies p {
+    max-width: 1000px;
+    margin: 15px auto 0
+} */
+
+ul#tabs-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+    margin-top: 35px
+}
+.btn.active {
+    color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg);
+    border-color: #1bbc9b;
+}
+ul#tabs-nav a {
+    font-weight: 600;
+    color: #000;
+    border:none
+}
+ul#tabs-nav a.active {
+    font-weight: 600;
+    color: #000;
+    border:none
+}
+
+
+ul#tabs-nav a::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    transform: scale(0);
+    display: block;
+    background: #1bbc9b;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(255,92,0,.5)
+}
+
+ul#tabs-nav li a:hover,ul#tabs-nav li.active a {
+    color: #1bbc9b
+}
+
+ul#tabs-nav a:hover::after,ul#tabs-nav li.active a::after {
+    transform: scale(1)
+}
+
+div.tabs-content {
+    margin-top: 35px
+}
+
+div.tabs-content .tab-content {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+div.tabs-content .tab-content a {
+    padding: 15px;
+    min-width: 150px;
+    display: inline-block;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    background:linear-gradient(to right,#F4F2FF,#ffffff);
+    border-radius: 10px;
+    transition: 0s ease-in-out;
+    text-decoration: none;
+}
+
+div.tabs-content .tab-content a:hover {
+    background: #1bbc9b;
+    color: #fff
+}
+
+div.tabs-content .tab-content a span {
+    display: block;
+    margin-top: 10px;
+    transition: 0s ease-in-out
+}
+  
