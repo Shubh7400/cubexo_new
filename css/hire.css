@@ -122,4 +122,6 @@ div.tabs-content .tab-content a span {
     margin-top: 10px;
     transition: 0s ease-in-out
 }
-  
+ul#tabs-nav a:hover::after, ul#tabs-nav a.active::after {
+    transform: scale(1);
+}
