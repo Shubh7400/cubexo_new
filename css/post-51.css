@@ -5,7 +5,7 @@
 
 .elementor-51 .elementor-element.elementor-element-6577d26:not(.elementor-motion-effects-element-type-background),
 .elementor-51 .elementor-element.elementor-element-6577d26>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #1BBC9B
+    background-color:white;
 }
 
 .elementor-51 .elementor-element.elementor-element-6577d26>.elementor-background-overlay {
@@ -19,7 +19,8 @@
 }
 
 .elementor-51 .elementor-element.elementor-element-c6f64a6 .elementor-heading-title {
-    color:white;
+    color:#232323;
+    margin-bottom: 20px;
 }
 
 .elementor-51 .elementor-element.elementor-element-84be5b9 .elementor-button:hover,

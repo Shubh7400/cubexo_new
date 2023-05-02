@@ -1,0 +1,134 @@
+@media (min-width: 576px){
+.cyFwPk {
+    overflow: unset;
+}
+}
+.ddAruj {
+    width: 100%;
+    max-width: 1124px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+}
+.yFjbd {
+    width: 100%;
+    margin: 0px auto;
+    overflow: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+@media (min-width: 576px){
+.yFjbd {
+    overflow: unset;
+    height: unset;
+}
+}
+.cJoqUd {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 12px;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+[data-aos][data-aos][data-aos-easing=ease-in-back], body[data-aos-easing=ease-in-back] [data-aos] {
+    transition-timing-function: cubic-bezier(.6,-.28,.735,.045);
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+.frFFiG {
+    display: flex;
+    flex-direction: column;
+}
+[data-aos][data-aos][data-aos-delay="200"].aos-animate, body[data-aos-delay="200"] [data-aos].aos-animate {
+    transition-delay: .2s;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+.bNCweA {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 576px){
+.frcyxW {
+    font-size: 18px;
+    margin: 0px 20px 20px 0px;
+    padding: 6px 15px;
+}
+}
+.frcyxW {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 1px solid rgb(159, 159, 159);
+    border-radius: 30px;
+    padding: 4px 12px;
+    min-height: 38px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0px 8px 15px 0px;
+    transition: all 0.2s ease 0s;
+}
+@media (min-width: 576px)
+{
+    .kZdVUu {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0px;
+}
+}
+.kZdVUu {
+    text-align: center;
+    padding-top: 12px;
+}
+@media (min-width: 576px){
+.euCrem {
+    font-size: 16px;
+    min-width: 176px;
+    min-height: 52px;
+}
+}
+.euCrem {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    border: none;
+    text-decoration: none;
+    box-shadow: none;
+    font-family: Poppins, sans-serif;
+    border-radius: 40px;
+    padding: 12px 20px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 130px;
+    min-height: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    pointer-events: none;
+}
+
+
