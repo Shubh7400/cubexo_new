@@ -3345,7 +3345,9 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 #left-area ul.elementor-icon-list-items,
 .elementor-edit-area .elementor-element ul.elementor-icon-list-items,
 .elementor .elementor-element ul.elementor-icon-list-items {
-    padding: 0
+    padding: 0;
+    column-gap: 25px;
+
 }
 
 .e--ua-appleWebkit.rtl {
