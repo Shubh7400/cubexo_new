@@ -120,6 +120,7 @@
 }
 .elementor-section.elementor-section-boxed > .elementor-container {
   max-width: 1170px;
+  /* column-gap: 10em; */
 }
 @media (min-width: 768px){
 .elementor-column.elementor-col-33, .elementor-column[data-col="33"] {
@@ -384,11 +385,11 @@
 
 
 .technology-area {
-  background: url(../cubexo-images/cleints.png);
+  background: url(/cubexo-images/clients.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 400px 0px 0px 0px;
+  padding: 360px 0px 0px 60px;
 }
 .dreamit-section-title{
   color: white;
@@ -398,6 +399,17 @@
   text-align: center;
   transition: .5s;
   margin-bottom:30px;
+  max-width: 260px;
+
+}
+@media  screen and (max-width:767px) {
+  .technology-single-icon-box{
+    max-width: 100%;
+  }
+  .technology-area{
+    padding: 360px 0px 0px 0px;
+
+  }
 }
 .technology-icon i {
   display: inline-block;

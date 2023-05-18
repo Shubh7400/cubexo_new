@@ -173,7 +173,7 @@
     max-width: 100%;
     border: none;
     border-radius: 0;
-    max-width: 270px;
+    /* max-width: 270px; */
     box-shadow: none
 }
 
@@ -3347,6 +3347,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 .elementor .elementor-element ul.elementor-icon-list-items {
     padding: 0;
     column-gap: 25px;
+    list-style: none;
 
 }
 

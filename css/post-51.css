@@ -43,13 +43,13 @@
 
 .elementor-51 .elementor-element.elementor-element-2bbb6a6:not(.elementor-motion-effects-element-type-background),
 .elementor-51 .elementor-element.elementor-element-2bbb6a6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var(--e-global-color-308e809);
+    background-color: #d9d9d9;
 }
 
 .elementor-51 .elementor-element.elementor-element-2bbb6a6 {
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color: var(--e-global-color-91455cb);
+    /* border-color: var(--e-global-color-91455cb); */
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 5em 0em 3em 0em;
 }
@@ -77,8 +77,8 @@
 
 .elementor-51 .elementor-element.elementor-element-cb8b9bd {
     --grid-template-columns: repeat(0, auto);
-    --icon-size: 14px;
-    --grid-column-gap: 5px;
+    --icon-size: 31px;
+    --grid-column-gap: 0px;
     --grid-row-gap: 0px;
 }
 
@@ -87,11 +87,11 @@
 }
 
 .elementor-51 .elementor-element.elementor-element-cb8b9bd .elementor-social-icon i {
-    color: var(--e-global-color-a185853);
+    color: blue;
 }
 
 .elementor-51 .elementor-element.elementor-element-cb8b9bd .elementor-social-icon svg {
-    fill: var(--e-global-color-a185853);
+    fill: #1bbc9b;
 }
 
 .elementor-51 .elementor-element.elementor-element-cb8b9bd .elementor-social-icon:hover i {
@@ -170,7 +170,7 @@
 
 .elementor-51 .elementor-element.elementor-element-9c649ba:not(.elementor-motion-effects-element-type-background),
 .elementor-51 .elementor-element.elementor-element-9c649ba>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var(--e-global-color-308e809);
+    background-color: #d9d9d9;
 }
 
 .elementor-51 .elementor-element.elementor-element-9c649ba {
