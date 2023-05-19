@@ -153,7 +153,8 @@
     background-color: var(--e-global-color-dea41e4);
     border-style: solid;
     border-width: 0px 0px 0px 0px;
-    opacity: 65%;
+    opacity: 100%;
+    border: 1px solid #1bbc9b;
 }
 
 .elementor-kit-11 label {
