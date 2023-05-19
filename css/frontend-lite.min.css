@@ -155,7 +155,9 @@
 .elementor *,
 .elementor :after,
 .elementor :before {
-    box-sizing: border-box
+    box-sizing: border-box;
+    text-align: center;
+
 }
 
 .elementor a {
@@ -1472,7 +1474,6 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 }
 
 .elementor-grid {
-    display: grid;
     grid-column-gap: var(--grid-column-gap);
     grid-row-gap: var(--grid-row-gap)
 }
@@ -2647,7 +2648,8 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     line-height: 1;
     transition: all .3s;
     color: #69727d;
-    font-size: 50px;
+    font-size: 30px;
+    margin: 10px;
     text-align: center
 }
 

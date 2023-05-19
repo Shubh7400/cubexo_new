@@ -637,3 +637,7 @@ position: absolute;
   font-weight: 600;
   font-family: quicksand, sans-serif;
 }
+.main-foot{
+  width: fit-content;
+  margin: auto;
+}
