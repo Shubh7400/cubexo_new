@@ -156,7 +156,6 @@
 .elementor :after,
 .elementor :before {
     box-sizing: border-box;
-    text-align: center;
 
 }
 
