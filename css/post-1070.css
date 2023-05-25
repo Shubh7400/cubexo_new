@@ -2770,6 +2770,12 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
     }
 }
 
+@media screen and (max-width:500px){
+    .elementor-1070 .elementor-element.elementor-element-757a8e6 .elementor-spacer-inner {
+        --spacer-size: 40vh;
+    }
+}
+
 @media(min-width:768px) {
     .elementor-1070 .elementor-element.elementor-element-691f8c8 {
         width: 50%;

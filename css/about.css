@@ -1118,3 +1118,8 @@ body.rtl .elementor-631 .elementor-element.elementor-element-9808ccd {
     padding: 15px 15px 15px 30px;
     color: #fff;
 }
+@media screen and (max-width:400px){
+    .elementor-631 .elementor-element.elementor-element-5e2f6e1 > .elementor-background-overlay{
+        margin-top: 40px;
+    }
+}
