@@ -696,7 +696,7 @@ h1.entry-title {
 
 .elementor-widget-wrap {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     flex-wrap: wrap;
     align-content: flex-start
 }

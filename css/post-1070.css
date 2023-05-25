@@ -1949,7 +1949,7 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
     }
 
     .elementor-1070 .elementor-element.elementor-element-757a8e6 {
-        width: 75vw;
+        /* width: 75vw; */
         max-width: 75vw;
     }
 
@@ -2875,5 +2875,11 @@ body.rtl .elementor-1070 .elementor-element.elementor-element-6dc6f8d {
 
     .elementor-1070 .elementor-element.elementor-element-02bf24f {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .elementor-widget-wrap .elementor-element-populated{
+             width: 100%;
     }
 }

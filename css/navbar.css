@@ -107,3 +107,15 @@
   .tex-a{
     margin: 0px 0px 6px;
   }
+.copyright-footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.main-copyright{
+  background-color: #d9d9d9;
+}
+.copyr{
+  margin: 2px;
+}
